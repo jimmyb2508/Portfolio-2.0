@@ -110,15 +110,7 @@ p {
   display: inline;
   width: 150px;
   height: auto;
-}
-
-/* Music Library API */
-
-.api_pic {
-  display: inline;
-  width: 229px;
-  height: 100%;
-  padding-top: 24px;
+  padding-top: 10px;
 }
 
 /* Music Library API */
@@ -161,6 +153,33 @@ p {
   padding: 1.5em;
 }
 
+/* Weather App */
+
+.weather-pic {
+  display: inline;
+  width: 229px;
+  height: 100%;
+  padding-top: 10px;
+}
+
+/* Find my Flag */
+
+.flag-pic{
+  display: inline;
+  width: 229px;
+  height: 100%;
+  padding-top: 10px;
+}
+
+/* Pet Pic */
+
+.pet-pic{
+  display: inline;
+  width: 229px;
+  height: 100%;
+  padding-top: 10px;
+}
+
 /* Section D */
 
 #section-d {
@@ -189,12 +208,12 @@ p {
 #section-e .box {
   padding: 2em;
   color: #333;
+  list-style-type: none;
 }
 
 #section-e .box:first-child {
-  background: #333;
-  color: #ffffff;
-  list-style-type: none;
+  background:#eaeaea;
+  color: #333;
 }
 
 .aboutmepic {
