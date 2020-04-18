@@ -3,8 +3,8 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background: #333;
-  color: #fff;
+  background: #f5f5f5;
+  color: #101010
   font-size: 1.1em;
   line-height: 1.5;
   text-align: center;
@@ -47,14 +47,14 @@ p {
 
 #showcase {
   min-height: 450px;
-  color: #fff;
+  color: #333;
   text-align: center;
 }
 
 #showcase .bg-image {
   position: absolute;
   background: #333
-    url("pic_1.jpg");
+    url("pic_5.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -104,9 +104,66 @@ p {
   padding: 1.5em;
 }
 
+/* beardynature.com */
+
+.beardypic {
+  display: inline;
+  width: 150px;
+  height: auto;
+}
+
+/* Music Library API */
+
+.api_pic {
+  display: inline;
+  width: 229px;
+  height: 100%;
+  padding-top: 24px;
+}
+
+/* Music Library API */
+
+.api_pic {
+  display: inline;
+  width: 229px;
+  height: 100%;
+  padding-top: 24px;
+}
+
+/* Tic-Tac-Toe Pic */
+
+.tic-tac-toe-pic {
+  display: inline;
+  width: 173px;
+  height: 100%;
+  padding-top: 10px;
+}
+
 /* Section C */
 
 #section-c {
+  padding: 2em 1em 1em;
+}
+
+#section-c ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#section-c li {
+  margin-bottom: 1em;
+  background: #fff;
+  color: #333;
+}
+
+.card-content {
+  padding: 1.5em;
+}
+
+/* Section D */
+
+#section-d {
   background: #fff;
   color: #333;
   padding: 2em;
@@ -127,15 +184,24 @@ p {
   color: #333;
 }
 
-/* Section D / Boxes */
+/* Section E / Boxes */
 
-#section-d .box {
+#section-e .box {
   padding: 2em;
-  color: #fff;
+  color: #333;
 }
 
-#section-d .box:first-child {
-  background: #2690d4;
+#section-e .box:first-child {
+  background: #333;
+  color: #ffffff;
+  list-style-type: none;
+}
+
+.aboutmepic {
+  width: 200px;
+  height: auto;
+  display: inline;
+  padding-top: 10px;
 }
 
 /* Footer */
@@ -148,16 +214,18 @@ p {
 }
 
 #main-footer a {
-  color: #2690d4;
+  color: #ffffff;
   text-decoration: none;
 }
+
+
 
 /* Social */
 
 .fab {
   padding: 0px;
   font-size: 30px;
-  width: 100px;
+  width: 80px;
   text-align: center;
   text-decoration: none;
 }
@@ -195,6 +263,20 @@ p {
   }
 
   #section-b li {
+    width: 31%;
+  }
+
+  .content-wrap,
+  #section-c ul {
+    grid-column: 2/4;
+  }
+
+  #section-c ul {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #section-c li {
     width: 31%;
   }
 }
