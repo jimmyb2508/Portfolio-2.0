@@ -120,14 +120,14 @@ p {
   display: inline;
   width: 229px;
   height: 100%;
-  padding-top: 24px;
+  padding-top: 33px;
 }
 
 /* Tic-Tac-Toe Pic */
 
-.tic-tac-toe-pic {
+.philosofind-pic {
   display: inline;
-  width: 173px;
+  width: 160px;
   height: 100%;
   padding-top: 10px;
 }
