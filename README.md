@@ -26,7 +26,7 @@ I utilise an Object Oriented Approach to Programming. I write robust code with T
 
 I can run a webserver and create APIs with Node.js and Express. I have knowledge of NOSQL databases such as MongoDB which I use to store data. I have deployed many projects to Github for you to enjoy!
 
-You can view the portfolio here:
+You can view my portfolio here:
 
 https://jbsoftware.dev
 
