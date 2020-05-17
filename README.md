@@ -2,14 +2,23 @@
 
 # Skills
 HTML
+
 CSS
+
 JavaScript
+
 React
+
 node.js
+
 Express
+
 MongoDB
+
 Adobe
+
 Wordpress
+
 Shopify
 
 # September19 graduate of Manchester Codes
