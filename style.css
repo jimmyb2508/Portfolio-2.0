@@ -181,6 +181,14 @@ p {
   padding-top: 10px;
 }
 
+/* Cruise Ship Pic */
+.cruise-ship-pic {
+  display: inline;
+  width: 229px;
+  height: 100%;
+  padding-top: 10px;
+}
+
 /* Section D */
 
 #section-d {
