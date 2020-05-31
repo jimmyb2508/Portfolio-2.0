@@ -55,7 +55,7 @@ p {
 #showcase .bg-image {
   position: absolute;
   background: #333
-    url("pic_5.jpg");
+    url("./images/pic_5.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -123,13 +123,22 @@ p {
   padding-top: 33px;
 }
 
-/* Tic-Tac-Toe Pic */
+/* Philosofind Pic */
 
 .philosofind-pic {
   display: inline;
   width: 160px;
   height: 100%;
   padding-top: 10px;
+}
+
+/* Codecademy Pic */
+
+.code-pic {
+  display: inline;
+  width: 145px;
+  height: 100%;
+  padding-top: 0px;
 }
 
 /* Section C */
