@@ -224,13 +224,15 @@ p {
 /* Section E / Boxes */
 
 #section-e .box {
-  padding: 2em;
+  padding: 1em;
   color: #333;
   list-style-type: none;
+  background:#eaeaea;
 }
 
 #section-e .box:first-child {
-  background:#eaeaea;
+  padding-top: 50px;
+  background: #ccc;
   color: #333;
 }
 
@@ -240,6 +242,20 @@ p {
   display: inline;
   padding-top: 10px;
 }
+
+/* Section F */
+
+#section-f .box {
+  padding: 2em;
+  color: #333;
+  list-style-type: none;
+}
+
+#section-f .box:first-child {
+  background:#eaeaea;
+  color: #333;
+}
+
 
 /* Contact Me Form */
 
