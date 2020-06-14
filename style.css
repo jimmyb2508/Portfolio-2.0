@@ -198,6 +198,14 @@ p {
   padding-top: 10px;
 }
 
+/* Flashbax Pic */
+.flashbax-pic {
+  display: inline;
+  width: 229px;
+  height: 100%;
+  padding-top: 12px;
+}
+
 /* Section D */
 
 #section-d {
