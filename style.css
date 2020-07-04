@@ -198,12 +198,17 @@ p {
   padding-top: 10px;
 }
 
+/* Code Pic */
+.code-pic {
+  padding-top: 2px;
+}
+
 /* Flashbax Pic */
-.flashbax-pic {
+.nasa-pic {
   display: inline;
   width: 229px;
   height: 100%;
-  padding-top: 12px;
+  padding-top: 17px;
 }
 
 /* Section D */
