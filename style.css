@@ -203,12 +203,21 @@ p {
   padding-top: 2px;
 }
 
-/* Flashbax Pic */
+/* NASA Pic */
 .nasa-pic {
   display: inline;
   width: 229px;
   height: 100%;
   padding-top: 17px;
+}
+
+/* Surreal Estate Pic */
+
+.surreal-estate-pic {
+  display: inline;
+  /* width: 229px;
+  height: 100%; */
+  padding-top: 20px;
 }
 
 /* Section D */
