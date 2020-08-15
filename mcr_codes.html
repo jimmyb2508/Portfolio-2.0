@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" />
+  <link rel="stylesheet" type="text/css" href="mcr_codes_style.css">
+  <title>JB</title>
+  <link rel="icon" href="./images/mcr_codes_icon.jpg" />
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
+  <script type="text/javascript">
+      (function(){
+         emailjs.init('user_bJ8EHQpp8qicAlhfaZkZJ');
+      })();
+  </script>
+  <script type="text/javascript">
+      window.onload = function() {
+          document.getElementById('contact-form').addEventListener('submit', function(event) {
+              event.preventDefault();
+              // generate the contact number value
+              this.contact_number.value = Math.random() * 100000 | 0;
+              emailjs.sendForm('contact_service', 'contact_form', this)
+          });
+      }
+  </script>
+</head>
+<>
+  <!-- Header Showcase -->
+<header id="showcase" class="grid">
+  <div class="bg-image"></div>
+  <div class="content-wrap">
+    <h1>James Barrington</h1>
+    <h2>Graduate of Manchester Codes</h2>
+    <h2>#September19 cohort graduated in March 20</h2>
+    <a href="#section-b" class="btn">Read More</a>
+  </div>
+</header>
+
+<!-- Main Area -->
+<main id="main">
+  <!-- Section A -->
+  <section id="section-a" class="grid">
+    <div class="content-wrap">
+      <h2 class="content-title">Full Stack Development</h2>
+      <div class="content-text">
+        <p>MCR Codes taught me to utilise an Object Oriented Approach to Programming. I now write robust code and practice Test Driven Development. As a result, I have been able to create structured, layered and designed websites using HTML, CSS, JavaScript and React. 
+        The course focussed on full stack development so I can now run a webserver and create APIs with Node.js and Express. I also have knowledge of NOSQL databases such as MongoDB which I use to store data. I have deployed many projects to Github and have included some links below for you to enjoy my work!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section B -->
+  <section id="section-b" class="grid">
+    <ul>
+      <li>
+        <div class="card">
+          <img class="api_pic" src="./images/pic_7.jpg" alt="Surreal Estate Picture"></a>
+          <div class="card-content">
+            <a href="https://github.com/jimmyb2508/javascript-basics" class="btn">View Code</a>
+            <h3 class="card-title">JavaScript Basics</h3>
+            <p>Vanilla JavaScript Kata's covering primitive types such as array's, objects, strings, booleans and numbers </p>
+            <p></p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="card">
+          <img class="api_pic" src="./images/pic_7.jpg" alt="Flag Picture"></a>
+          <div class="card-content">
+            <a href="https://github.com/jimmyb2508/music-library-API" class="btn">View Code</a>
+            <h3 class="card-title">Music Library API</h3>
+            <p>A CRUD REST API that stores information about artists, albums and songs.</p>
+            <p>It interacts with a MongoDB database using Express and has been fully tested with Mocha.</p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="card">
+          <a href="https://philosofind.co.uk">
+          <img class="philosofind-pic" src="./images/pic_12.jpg" alt="Philosofind"></a>
+          <div class="card-content">
+            <a href="https://github.com/jimmyb2508/Philosofind.v.2.0" class="btn">View Code</a>
+            <h3 class="card-title">Philosofind</h3>
+            <p>Philosofind is a single page application designed to help you make sense of the world around you.</p>
+            <p>The frontend was built using React. The app features a node.js Express API which utilizes a Mongo DB database.</p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+    <!-- Section C -->
+    <section id="section-c" class="grid">
+      <ul>
+        <li>
+          <div class="card">
+            <a href="https://weather-app-v-3-0.now.sh/">
+            <img class="weather-pic" src="./images/pic_2.jpg" alt="Weather Picture"></a>
+            <div class="card-content">
+              <a href="https://github.com/jimmyb2508/weather_app_v.3.0" class="btn">View Code</a>
+              <h3 class="card-title">Weather App</h3>
+              <p>A React application that utilizes an API to provide a five day weather forecast for UK cities.</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="card">
+            <a href="https://jimmyb2508.github.io/choose-a-country/index.html">
+              <img class="flag-pic" src="./images/pic_3.jpg" alt="Flag Picture"></a>  
+            <div class="card-content">
+              <a href="https://github.com/jimmyb2508/choose-a-country" class="btn">View Code</a>
+              <h3 class="card-title">Find My Flag</h3>
+              <p>A React App that utilizes an API to provide facts about the users chosen country.</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="card">
+            <a href="https://github.com/jimmyb2508/virtual-pet">
+            <img class="pet-pic" src="./images/pic_4.jpg" alt="Virtual Pet Pic"></a>
+            <div class="card-content">
+              <a href="https://github.com/jimmyb2508/virtual-pet" class="btn">View Code</a>
+              <h3 class="card-title">Virtual Pet</h3>
+              <p>A virtual pet built using vanilla JavaScript for use in node.js.</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+        <!-- Section C2 -->
+        <section id="section-c" class="grid">
+          <ul>
+            <li>
+              <div class="card">
+                <a href="https://cruise-ships.now.sh/">
+                <img class="cruise-ship-pic" src="./images/pic_13.png" alt="Cruise Ship Picture"></a>
+                <div class="card-content">
+                  <a href="https://github.com/jimmyb2508/cruise-ships" class="btn">View Code</a>
+                  <h3 class="card-title">Cruise Ships</h3>
+                  <p>A game built with Vanilla JavaScript, complete with GUI</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="card">
+                <a href="https://surreal-estate.vercel.app/">
+                <img class="surreal-estate-pic" src="./images/pic_19.png" alt="Surreal Estate Picture"></a>
+                <div class="card-content">
+                  <a href="https://github.com/jimmyb2508/Surreal-Estate" class="btn">View Code</a>
+                  <h3 class="card-title">Surreal Estate</h3>
+                  <p>A React app that that emulates a property search engine similar to RightMove or Zoopla.</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="card">
+                <a href="https://nasa-image-library.vercel.app/">
+                <img class="nasa-pic" src="./images/Pic_17.jpg" alt="NASA Worm Logo"></a>
+                <div class="card-content">
+                  <a href="https://github.com/jimmyb2508/Nasa-Image-Library" class="btn">View Code</a>
+                  <h3 class="card-title">NASA Image Library</h3>
+                  <p>A React App that enables users to explore NASA's image library</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <!-- Section C2 -->
+        <section id="section-c" class="grid">
+          <ul>
+            <li>
+              <div class="card">
+                <img class="api_pic" src="./images/pic_7.jpg" alt="Surreal Estate Picture"></a>
+                <div class="card-content">
+                  <a href="https://github.com/jimmyb2508/Surreal-Estate" class="btn">View Code</a>
+                  <h3 class="card-title">Express Kata's</h3>
+                  <p>Building on the JavaScript basic's codebase this exercise involved creating models and route's using Express.</p>
+                  <p>All code has been tested using Jest & Supertest.</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="card">
+                <img class="api_pic" src="./images/pic_7.jpg" alt="Surreal Estate Picture"></a>
+                <div class="card-content">
+                  <a href="https://github.com/jimmyb2508/diy-kata" class="btn">View Code</a>
+                  <h3 class="card-title">DIY Kata</h3>
+                  <p>Vanilla JavaScript Kata tested with Jest.</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="card">
+                <img class="api_pic" src="./images/pic_7.jpg" alt="Surreal Estate Picture"></a>
+                <div class="card-content">
+                  <a href="https://github.com/jimmyb2508/calculate-bill-kata" class="btn">View Code</a>
+                  <h3 class="card-title">Calculate Bill Kata</h3>
+                  <p>A function that takes the price of a bill, the VAT rate and the tip rate and returns the total amount the customer needs to pay, formatted as a currency string.</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+  <!-- Section D
+  <section id="section-d" class="grid">
+    <div class="content-wrap">
+      <h2 class="content-title">My Philosophy</h2>
+      <p>I combine advanced problem solving skills with a client focussed approach, which I apply to developing professional software solutions.</p>
+      <a href="https://jamesbarringtonsoftware.com" class="blog">View Blog</a>
+      <a href="CV .pdf" class="blog">View CV</a>
+    </div>
+  </section> -->
+
+  <!-- Section E -->
+  <section id="section-e" class="grid">
+    <div class="box">
+      <h2 class="content-title">My Philosophy</h2>
+      <p>I combine advanced problem solving skills with a client focussed approach, which I apply to developing professional software solutions.</p>
+      <a href="https://jamesbarringtonsoftware.com" class="blog">View Blog</a>
+      <a href="CV .pdf" class="blog">View CV</a>
+    </div>
+    <div class="box">
+      <a class="twitter-timeline" data-width="400" data-height="350" data-theme="dark" href="https://twitter.com/barrington_jb?ref_src=twsrc%5Etfw">Tweets by barrington_jb</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+  </section>
+
+    <!-- Section F -->
+    <section id="section-f" class="grid">
+      <div class="box">
+        <h2 class="content-title">About Me</h2>
+        <p>My name is James Barrington and I am a 34 year old developer from Manchester. I am a #september19 graduate of the Manchester Codes Software Engineering Bootcamp.</p>
+        <a href="https://www.manchestercodes.com/">
+          <img class="aboutmepic" src="./images/pic_11.png" alt="MCR Codes Picture"></a>
+        </a>
+      </div>
+      <div class="box">
+        <h2 class="content-title">Contact Me</h2>
+        <div class="form-container">
+          <form id="contact-form">
+            <input type="hidden" name="contact_number">
+              <div class="row">
+                <div class="col-25">
+                  <label for="name">Name</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="name" name="user_name" placeholder="Name">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="email">Email</label>
+                </div>
+                <div class="col-75">
+                  <input type="email" name="user_email" placeholder="email">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="message">Message</label>
+                </div>
+                <div class="col-75">
+                  <textarea id="message" name="message" placeholder="Message" style="height:80px"></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <input type="submit" value="Send">
+              </div>
+          </form>
+        </div>
+      </div>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer id="main-footer" class="grid">
+  <div>© JB</div>
+  <div class="social">
+    <a href="https://www.linkedin.com/in/mrjamesbarrington/" class="fab fa-linkedin fa-2x"></a>
+    <a href="https://twitter.com/barrington_jb" class="fab fa-twitter fa-2x"></a>
+    <a href="https://github.com/jimmyb2508" class="fab fa-github fa-2x"></a>
+    <a href="https://api.whatsapp.com/send?phone=+447367130803" class="fab fa-whatsapp fa-2x"></a>
+  </div>
+</footer>
