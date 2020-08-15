@@ -212,6 +212,12 @@ p {
   color: #333;
 }
 
+.agile {
+ font-weight: bold;
+ text-decoration: none;
+ color: black;
+}
+
 .me-pic {
   border-radius: 50%;
   height: 100%;
