@@ -127,7 +127,7 @@ p {
   width: 179px;
   height: 100%;
   padding-top: 35px;
-  padding-bottom: 18px;
+  padding-bottom: 24px;
 }
 
 /* beardynature.com */
@@ -161,10 +161,10 @@ p {
 
 .pod-pic {
   display: inline;
-  width: 220px;
+  width: 120px;
   height: auto;
   padding-top: 30px;
-  padding-bottom: 20px;
+  padding-bottom: 18px;
 }
 
 /* Section C */
