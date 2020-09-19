@@ -120,6 +120,16 @@ p {
   padding: 1.5em;
 }
 
+/* freeCodeCamp pic */
+
+.code-camp-pic {
+  display: inline;
+  width: 179px;
+  height: 100%;
+  padding-top: 35px;
+  padding-bottom: 18px;
+}
+
 /* beardynature.com */
 
 .beardypic {
@@ -153,8 +163,8 @@ p {
   display: inline;
   width: 220px;
   height: auto;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
 /* Section C */
