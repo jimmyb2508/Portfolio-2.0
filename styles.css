@@ -56,7 +56,7 @@ p {
 #showcase .bg-image {
   position: absolute;
   background: #333
-    url("./images/main_background.jpg");
+    url("./images/pic_23.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -78,21 +78,12 @@ p {
 
 /* Section A */
 
-.me-pic {
-  border-radius: 50%;
-  height: 100%;
-  width: 150px;
-  display: inline-block;
-}
-
 #section-a {
   background: #eaeaea;
   color: #333;
   padding-bottom: 2em;
   padding-top: 2em;
 }
-
-
 
 /* Section B */
 
@@ -139,6 +130,17 @@ p {
   padding-bottom: 24px;
 }
 
+/* beardynature.com */
+
+.beardypic {
+  display: inline;
+  width: 150px;
+  height: auto;
+  padding-top: 10px;
+}
+
+/* Codecademy Pic */
+
 .code-pic {
   display: inline;
   width: 179px;
@@ -155,27 +157,15 @@ p {
   padding-bottom: 10px;
 }
 
-.freelance-pic {
-  display: inline;
-  width: 158px;
-  height: auto;
-  padding-top: 20px;
-}
+/* Posh Pods Pics */
 
-.pi-pic {
+.pod-pic {
   display: inline;
-  width: 130px;
+  width: 120px;
   height: auto;
   padding-top: 30px;
   padding-bottom: 18px;
-}
-
-.side-pic {
-  display: inline;
-  width: 130px;
-  height: auto;
-  padding-top: 30px;
-  padding-bottom: 18px;
+  margin-bottom: 6px;
 }
 
 /* Section C */
@@ -249,22 +239,17 @@ p {
  color: black;
 }
 
-.aboutmepic {
+.me-pic {
+  border-radius: 50%;
+  height: 100%;
   width: 150px;
-  height: auto;
-  display: inline;
-  padding-top: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
-.free {
-  width: 210px;
+.aboutmepic {
+  width: 200px;
   height: auto;
   display: inline;
   padding-top: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 /* Section F */
