@@ -131,28 +131,27 @@ p {
 
 /* freeCodeCamp pic */
 
-.code-camp-pic {
+.to-do-pic {
   display: inline;
-  width: 179px;
+  width: 220px;
   height: 100%;
-  padding-top: 35px;
-  padding-bottom: 24px;
-}
-
-.code-pic {
-  display: inline;
-  width: 179px;
-  height: 100%;
-  padding-top: 0px;
+  padding-top: 20px;
   padding-bottom: 0px;
 }
 
-.MCR_Codes_pic {
+.calc-pic {
   display: inline;
-  width: 150px;
-  height: auto;
+  width: 172px;
+  height: 100%;
   padding-top: 20px;
-  padding-bottom: 10px;
+}
+
+.key-pic {
+  display: inline;
+  width: 210px;
+  height: 100%;
+  padding-top: 20px;
+  padding-bottom: 5px;
 }
 
 .freelance-pic {
