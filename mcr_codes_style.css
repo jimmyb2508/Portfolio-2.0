@@ -118,6 +118,16 @@ p {
   padding: 1.5em;
 }
 
+/* Languages */
+
+.languages {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 180px;
+  margin-top: 20px;
+}
+
 /* Music Library API */
 
 .api_pic {

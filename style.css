@@ -129,6 +129,16 @@ p {
   padding: 1.5em;
 }
 
+/* Languages */
+
+.languages {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 150px;
+  margin-top: 20px;
+}
+
 /* freeCodeCamp pic */
 
 .code-camp-pic {
