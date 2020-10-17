@@ -130,16 +130,6 @@ p {
   margin-top: 20px;
 }
 
-/* freeCodeCamp pic */
-
-.code-camp-pic {
-  display: inline;
-  width: 179px;
-  height: 100%;
-  padding-top: 35px;
-  padding-bottom: 24px;
-}
-
 /* beardynature.com */
 
 .beardypic {
@@ -147,24 +137,6 @@ p {
   width: 150px;
   height: auto;
   padding-top: 10px;
-}
-
-/* Codecademy Pic */
-
-.code-pic {
-  display: inline;
-  width: 179px;
-  height: 100%;
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-
-.MCR_Codes_pic {
-  display: inline;
-  width: 150px;
-  height: auto;
-  padding-top: 20px;
-  padding-bottom: 10px;
 }
 
 /* Posh Pods Pics */
