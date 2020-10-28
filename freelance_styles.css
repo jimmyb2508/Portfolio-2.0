@@ -150,6 +150,17 @@ p {
   margin-bottom: 6px;
 }
 
+/* Flashbax Pic */
+
+.fb-pic {
+  display: inline;
+  width: 200px;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  margin-bottom: 0px;
+}
+
 /* Section C */
 
 #section-c {
