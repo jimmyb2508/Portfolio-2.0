@@ -386,6 +386,12 @@ input[type=submit]:hover {
   text-decoration: none;
 }
 
+.iconify {
+  width: 25px;
+  height: 100%;
+  margin-left: 20px;
+}
+
 /* Media Queries */
 
 @media (min-width: 700px) {
