@@ -80,8 +80,8 @@ p {
 
 .me-pic {
   border-radius: 50%;
-  height: 100%;
-  width: 150px;
+  height: 100px;
+  width: 100px;
   display: inline-block;
 }
 
